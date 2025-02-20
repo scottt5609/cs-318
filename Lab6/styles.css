@@ -1,0 +1,20 @@
+body {
+    background-image: url("images/bangkok1.jpg");
+    background-size: 1000px 300px;
+    background-position: top;
+    background-repeat: repeat;
+  }
+
+
+h1,h2,a {
+color: yellow;
+}
+
+a:hover {
+color: red;
+}
+
+p {
+color: black;
+background-color: white;
+}
