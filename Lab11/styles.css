@@ -1,0 +1,46 @@
+.flex-container{
+    background-color:white;
+    display:flex;
+    justify-content: space-around;
+}
+h1{
+    background-color:brown;
+    color: white;
+    padding:1rem;
+    margin:1rem;
+}
+h3{
+    background-color: lightgray;
+    color:black;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+p{
+    padding:0.5rem;
+    margin:0.5rem;
+}
+h2{
+    background-color: gray;
+    color:black;
+}
+a{
+color:white;
+}
+@media (min-width: 1200px){
+    h1{
+       background-color:brown;
+    color: white;
+    padding:0.5rem;
+    margin:0.5rem;
+    }
+    img{
+width:25%;    
+}
+h2 {
+padding:0.5rem;
+    margin:0.5rem;
+}
+p {
+size:18px;
+}
+}
