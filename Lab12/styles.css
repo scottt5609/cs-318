@@ -2,6 +2,9 @@ body{
     margin:0;
     background-color: #18810f;
     color:#fff;
+    /*Missing 
+    font-family: 'Montserrat', sans-serif;
+    */
 }
 header{
     background-color: #000;
@@ -48,7 +51,7 @@ input:focus[type=text], input:focus[type=email], input:focus[type=date], input:f
     outline:none;
 }
 input[type=reset], input[type=submit]{
-    font-family:Eater, cursive;
+    font-family:Eater, cursive; /*Need single quotes on both sides of Eater */
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 2rem;
