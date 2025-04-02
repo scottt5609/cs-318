@@ -75,7 +75,7 @@ article.show {
 display: block;
 }
 
-
+/*Change the > to a space. The span is inside the h2 inside the section so the > is breaking this CSS. */
 section>span{
  position: absolute;
  top: 15rem;
@@ -94,12 +94,16 @@ span.rotate {
 
 .sidelink {
 background-color: #27213C;
-font-color: #fff;
+font-color: #fff;/*color not font-color*/
 padding: 1rem 2rem;
 text-decoration: none;
 position: fixed;
 transform: rotate(90deg);
 z-index: 1;
+/*Missing 
+top:40%;
+right:-5rem;
+These two properties with position fixed will relocate the button to the right side of the browser screen.*/
 }
 
 
@@ -117,13 +121,17 @@ section>h2 {
 
 section>span {
  font-size: 4rem;
- top: 26rem:
+ top: 26rem:/*Should be a ; at the end not a colon.*/
  left:calc(50% - 22px);
 }
 
 
 nav {
  position: absolute;
+ /*Missing 
+ top:1rem;
+ left:1rem;
+ These two properties with position absolute will move the nav to the left of the H1 on desktop.*/
 }
 
 
