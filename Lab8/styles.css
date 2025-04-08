@@ -76,7 +76,7 @@ display: block;
 }
 
 /*Change the > to a space. The span is inside the h2 inside the section so the > is breaking this CSS. */
-section>span{
+section span{
  position: absolute;
  top: 15rem;
  font-size: 2rem;
@@ -94,12 +94,14 @@ span.rotate {
 
 .sidelink {
 background-color: #27213C;
-font-color: #fff;/*color not font-color*/
+color: #fff;/*color not font-color*/
 padding: 1rem 2rem;
 text-decoration: none;
 position: fixed;
 transform: rotate(90deg);
 z-index: 1;
+top:40%;
+right:-5rem;
 /*Missing 
 top:40%;
 right:-5rem;
@@ -121,13 +123,15 @@ section>h2 {
 
 section>span {
  font-size: 4rem;
- top: 26rem:/*Should be a ; at the end not a colon.*/
+ top: 26rem;/*Should be a ; at the end not a colon.*/
  left:calc(50% - 22px);
 }
 
 
 nav {
  position: absolute;
+ top:1rem;
+ left:1rem;
  /*Missing 
  top:1rem;
  left:1rem;
