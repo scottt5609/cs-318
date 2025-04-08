@@ -51,7 +51,6 @@ background-color: rgb(200, 200, 205);
 nav {
 flex-basis: 100%;
 text-align: center;
-flex-basis unset/*delete*/
 }
 
 main {
@@ -60,7 +59,7 @@ padding: 1rem;
 }
 
 /*Change selector to "main img". You don't want the > because the images are inside of sections inside the main. With the arrow it will not apply to all images*/
-main>img {
+main img {
 max-width: 100%;
 margin: .5rem 0;
 
@@ -87,6 +86,8 @@ flex-basis: unset;
 
 header {
 flex-wrap: nowrap;
+justify-content: space-between;
+align-items:flex-end;
 /*Missing justify-content: space-between; This will push the logo to the left and the nav to the right*/
 /*Missing align-items:flex-end; This will line the nav and logo up on the bottom*/
 }
@@ -101,6 +102,10 @@ background-position: center;
     display:flex;
 }
 */
+.about-me{
+    display:flex;
+}
+    
 .about-me>div  {
 flex-basis: 50%;
 margin-left: 2rem;
