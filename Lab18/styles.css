@@ -1,0 +1,61 @@
+body{
+    background-color: #FF74B1 ;
+    font-family: "Funnel Sans", sans-serif;
+}
+.column1-1 {
+    flex: 1;
+    margin:20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    text-align:center;
+}
+.column2-1 {
+    flex: 2;
+    margin:20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    background-image:url("images/lab17_logobackround.svg");
+    background-size:cover;
+}
+h1{
+    color:#FF74B1;
+    font-family: "Agbalumo", system-ui;
+}
+h2{
+    text-align:center;
+}
+.top{
+    display:flex;
+}
+.title{
+    text-align:right;
+}
+.column-2 {
+    flex: 1;
+    margin:20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.column1-1 img{
+    padding:10px;
+}
+.column2-1{
+    margin-right:0;
+}
+nav a{
+    font-size:30px;
+}
+
+@media (min-width:1000px){
+    .container1 {
+        display: flex;
+    }
+    .container2 {
+        display: flex;
+    }
+}
