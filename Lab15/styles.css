@@ -193,7 +193,7 @@ form{
  cursor: pointer;
 }
 .delete:hover, .close:hover{
-    background-color: rbg(171,36,36);/*rgb not rbg */
+    background-color: rgb(171,36,36);/*rgb not rbg */
 }
 .delete, .close{
     transition: .2s ease-in-out;
