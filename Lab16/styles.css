@@ -22,13 +22,13 @@ background: rgb(9,2,29);
  padding: 1rem;
 }
 
-
+/*Change the > to a space*/
 header>a {
 color: #fff;
 margin: 1rem;
 }
 
-
+/*Change the > to a space*/
 header>a:hover {
 
  color: #d15f44;
