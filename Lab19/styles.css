@@ -208,10 +208,10 @@ footer{
         text-decoration: underline;
     }
     .social{
-        padding: right 2rem;
+        padding: right 2rem;/*Should be padding-right:2rem; */
     }
     h1{
-        margin:left -16rem;
+        margin:left -16rem;/*margin-left:-16rem;*/
     }
     .call-to-action{
         padding: 20rem calc((100% - 900px)/2) 5rem;
